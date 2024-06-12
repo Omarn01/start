@@ -1,0 +1,57 @@
+.main {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  > div {
+    border: 1px solid blue;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > div {
+      border: 1px solid green;
+      h4 {
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.onclick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.onhour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.count {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.click {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #171717;
+}
